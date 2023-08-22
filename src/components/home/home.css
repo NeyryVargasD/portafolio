@@ -1,0 +1,109 @@
+.container-home{
+    position: relative;
+    min-height: 100vh;
+    padding: 30px 20px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.container-home  .about__me-image{
+    position: absolute;
+    bottom: 200px;
+    height: 300px;
+    width: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    cursor: pointer;
+    transition:transform 0.4s;
+
+}
+
+
+.container-home  .about__me-image:hover{
+transform: scale(1.1);
+
+}
+
+
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.about__me .about__me-image img {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 30%;
+    border: 15px solid rgb(98, 23, 230);
+    opacity: 0;
+    animation: fade-in 1s ease 1 0.5s forwards;
+    transition: border 0.3s, transform 0.3s; /* Agregamos transiciones para los cambios en border y transform */
+}
+
+.about__me .about__me-image img:hover {
+    border: 15px solid rgb(73, 61, 94);
+    box-shadow: 0 0 10px rgb(98, 23, 230);
+    
+}
+
+@keyframes fade-in {
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.container-home h2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 60%;
+    margin-top: 10px;
+
+}
+
+.container-home h2 span{
+    position: relative;
+    right: 170px;
+    font-size: 25px;
+    bottom: 170px;
+    opacity: 0.8;
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.container-home h2 p{
+    position: relative;
+    font-size: 20px;
+    bottom: 90px;
+    left: 110px;
+    opacity: 1;
+    font-weight: 100;
+    margin-top: 1px;
+    font-family: "open sans", sans-serif;
+}
+
+.scroll__down {
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 830px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+

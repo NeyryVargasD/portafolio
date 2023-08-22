@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  z-index: 1;
+}
+
+body{
+  background: rgb(15, 15, 15);
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  animation: move 1s linear infinite forwards;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+:root{
+  --color-pri:rgb(98, 23, 230);
+  --color-pri-light: rgba(68, 26, 103, 0.445);
+  --color-sec: rgba(144, 96, 162, 0.274);
+  --color-sec-light: rgba(180, 126, 201, 0.274);
+
+  --pc-width:75%;
+  --tab-width:90%;
+  --phone-width:100%;
+}
+
+body::before{
+  content: '';
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  background:  rgb(16, 16, 17);
+  filter: blur(140px);
+}
+
+body::after{
+  content: '';
+  position: fixed;
+  top: 200px;
+  left: 250px;
+  height: 200px;
+  width: 200px;
+  background:  rgb(3, 3, 5);
+  filter: blur(340px);
+}
+
+.circle1{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  background:  rgb(60, 2, 88);
+  filter: blur(140px);
+}
+
+.circle2{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  background:  rgb(3, 3, 93);
+  filter: blur(140px);
+}
+
+.container{
+  width: var(--pc-width);
+  color: var(--text-pri);
+  padding: 10px 40px;
+  margin: 5px auto;
+  padding:10px 40px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 500px){
+  .container{
+    width: var(--phone-width);
+  }
+}
