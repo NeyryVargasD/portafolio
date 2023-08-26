@@ -50,11 +50,12 @@ const Portfolio = () => {
     ];
   
     return (
-        <div className='Portafolio'>
+        
       <section id="portfolio">
+        <div className='Portafolio'>
         <h5>Mis trabajos recientes </h5>
         <h2>Portfolio</h2>
-  
+        </div>
         <div className="container portfolio__container">
           {soloProjects.map((pro) => (
             <article className="portfolio__item" key={pro.id}>
@@ -88,7 +89,7 @@ const Portfolio = () => {
           ))}
         </div>
       </section>
-      </div>
+      
     );
   };
   

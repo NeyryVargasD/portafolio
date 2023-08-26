@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <div className='Contact'>
     <section id="contact">
-      <h5>Ponerse en contacto</h5>
+      <h5>Ponerse en contacto</h5><br/>
       <h5>
      Recibo sus mensajes y responderé lo antes posible si se proporciona el correo electrónico válido :)
       </h5>
