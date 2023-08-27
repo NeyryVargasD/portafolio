@@ -3,9 +3,10 @@ import Header from './components/header/header';
 import Navbar from './components/nav/nav';
 import Home from './components/home/home';
 import About from './components/about/about';
-
+import Skill from './components/Skills/Skill'
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
+import Qualifications from './components/qualifications/qualifications'
 
 
 function WebContent() {
@@ -14,11 +15,11 @@ function WebContent() {
     <div className="circle1"></div>
     <div className="circle2"></div>
     <Header/>
-    
-    
       <Navbar />
       <Home />
-      <About/>
+      
+      <Skill/>
+      <Qualifications/>
       <Contact/>
       <Footer/>
       

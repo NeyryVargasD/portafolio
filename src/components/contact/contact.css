@@ -1,6 +1,6 @@
 .Contact{
     position: relative;
-    bottom: 0px;
+    top: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
 
 .Contact h2{
     position: relative;
-    top: 40px;
+    top: 70px;
 }
 
 
@@ -35,7 +35,7 @@
 .contact__option {
     position: relative;
     width: 200px;
-    right: 100px;
+    right: 150px;
     background: transparent;
     padding: 1.2rem;
     border-radius: 1.2rem;
@@ -77,6 +77,9 @@ form span {
 }
 
 form {
+    position: relative;
+    top: 55px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -88,7 +91,7 @@ textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(98, 24, 230);
     resize: none;
     color: var(--color-white);
 }

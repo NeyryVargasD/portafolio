@@ -1,4 +1,4 @@
-#home .container-header {
+#header .container-header {
     position: relative;
     top: 90px;
     display: flex;
@@ -72,11 +72,12 @@
 
   .btn-primary h4{
     position: relative;
-    color: black;
+    left: 90px;
+    color: rgb(239, 232, 232);
     border: 2px solid rgb(98, 24, 230);
     border-radius: 5px;
     box-shadow:  0 0 15px rgb(98, 24, 230);
-    background: rgb(208, 217, 227);
+    background: transparent;
    
     text-align: center;
     width: 120px;
@@ -84,7 +85,7 @@
     padding: 10px;
     font-size: 15px;
     justify-content: center;
-    gap: 1.2rem;
+    
     margin-top: 2.5rem;
     cursor: pointer;
 }
@@ -92,4 +93,20 @@
     background:rgba(98, 23, 230) ;
     border:2px solid;
     
+  }
+
+  .btn-secun{
+   position: relative;
+   bottom: 30px;
+   right: 80px;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 10px;
+   background: rgb(98, 23, 230);
+   box-shadow:  0 0 15px rgb(218, 214, 225);
+
+  }
+
+  .btn-secun:hover{
+    background: transparent;
   }

@@ -1,0 +1,84 @@
+.let h5{
+    position: relative;
+    top: 50px;
+}
+
+.let h2{
+    position: relative;
+    top: 60px;
+}
+
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 2rem;
+    position: relative;
+    top: 70px;
+}
+
+.experience__container > div {
+    background:  rgba(98, 23, 230, 0.3);
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    transition: var(--transition);
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+    display: grid;
+    
+    
+}
+
+.experience__container > div img {
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: desplazar 2s ease-in-out infinite alternate; /* Aplica la animación */
+}
+
+@keyframes desplazar {
+    0% {
+        left: 20px; /* Inicia desde la posición actual */
+    }
+    100% {
+        left: 110px; /* Desplaza 60px hacia la derecha */
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .experience__content p {
+        padding: 1rem;
+    }
+}
+  
+@media screen and (max-width: 600px){
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}

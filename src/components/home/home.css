@@ -1,7 +1,7 @@
 .container-home{
     position: relative;
     min-height: 100vh;
-    
+    top: 70px;
     margin-top: 200px;
     display: flex;
     flex-direction:row;
@@ -75,9 +75,9 @@ transform: scale(1.1);
 
 .container-home h2 span{
     position: relative;
-    right: 170px;
+    left: 60px ;
     font-size: 25px;
-    bottom: 170px;
+    bottom: 190px;
     opacity: 0.8;
     padding-bottom: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -87,8 +87,8 @@ transform: scale(1.1);
 .container-home h2 p{
     position: relative;
     font-size: 20px;
-    bottom: 90px;
-    left: 110px;
+    bottom: 130px;
+    left: 350px;
     opacity: 1;
     font-weight: 100;
     margin-top: 1px;
@@ -98,7 +98,7 @@ transform: scale(1.1);
 .scroll__down {
     transform: rotate(90deg);
     position: absolute;
-    bottom: 830px;
+    bottom: 870px;
     right: 0;
     display: flex;
     justify-content: center;
@@ -107,3 +107,21 @@ transform: scale(1.1);
     cursor: pointer;
 }
 
+.btn-primar h4{
+    position: relative;
+    right: 60px;
+    color: rgb(239, 232, 232);
+    border: 2px solid rgb(98, 24, 230);
+    border-radius: 5px;
+    box-shadow:  0 0 15px rgb(98, 24, 230);
+    background: transparent;
+    text-align: center;
+    width: 120px;
+    top: 90px;
+    padding: 10px;
+    font-size: 15px;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}

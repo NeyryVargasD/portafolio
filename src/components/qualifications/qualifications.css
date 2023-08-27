@@ -1,15 +1,15 @@
 .Portafolio {
     position: absolute;
     align-items: center;
-    bottom: 950px;
-    left: 40%;
+    top: 1800px;
+    left: 43%;
 }
 
 
 
 .portfolio__container {
     position: relative;
-    top: 20px;
+    top: 230px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
@@ -23,6 +23,7 @@
     
     border-radius: 2rem;
     border: 1px solid white;
+    box-shadow: 0 0 3px rgb(96, 18, 155);
     transition: var(--transition);
 }
 

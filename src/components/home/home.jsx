@@ -24,9 +24,10 @@ function Home() {
                 <span>Acerca de mi</span> <br />
                 <p>Soy una persona altamente creativa y proactiva, siempre dispuesta a aprender y abordar nuevos desafíos.<br/>
                  Mi enfoque se centra en encontrar soluciones prácticas y eficientes para resolver los problemas que se presentan. Disfruto trabajando en equipo, ya que creo firmemente en el valor de la colaboración y el intercambio de ideas. Constantemente busco nuevas formas de contribuir y proponer ideas innovadoras que impulsen un mejoramiento continuo en todas las áreas en las que trabajo.</p>
-          
-                
-            </h2>
+          </h2>
+            <a href="#contact" className="btn btn-primar">
+               <h4>Contacto</h4>
+              </a>
         </div>
     );
 }
