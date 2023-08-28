@@ -4,6 +4,15 @@
     top: 1800px;
     left: 43%;
 }
+.Portafolio h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.Portafolio h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(98, 23, 230);
+}
 
 
 
@@ -55,6 +64,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 2rem; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
   
 }
@@ -85,7 +95,13 @@
     height: 40%;
 }
 
+.portfolio__item-content h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.portfolio__item-content p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 @media screen and (max-width: 1024px){
     .portfolio__container {

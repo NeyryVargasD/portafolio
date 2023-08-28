@@ -35,6 +35,10 @@
     font-size: 15px;
 }
 
+.container-header h5{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .container-header .text-light{
     color:  var(--color-pri);
     font-size: 20px;
@@ -78,7 +82,7 @@
     border-radius: 5px;
     box-shadow:  0 0 15px rgb(98, 24, 230);
     background: transparent;
-   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     width: 120px;
     top: 10px;
@@ -104,6 +108,7 @@
    padding: 10px;
    background: rgb(98, 23, 230);
    box-shadow:  0 0 15px rgb(218, 214, 225);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   }
 

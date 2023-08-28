@@ -1,11 +1,15 @@
 .let h5{
     position: relative;
     top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
 }
 
 .let h2{
     position: relative;
     top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(98, 24, 230) ;
 }
 
 .experience__container {
@@ -33,7 +37,8 @@
     margin-bottom: 2rem;
     color: var(--color-primary);
     display: grid;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
     
 }
 

@@ -9,12 +9,16 @@
 .Contact h5{
     position: relative;
     top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
     
 }
 
 .Contact h2{
     position: relative;
     top: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(98, 24, 230);
 }
 
 
@@ -34,20 +38,21 @@
 
 .contact__option {
     position: relative;
+    top: 30px;
     width: 200px;
+    height: 200px;
     right: 150px;
-    background: transparent;
+    background: rgba(98, 23, 230, 0.3);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid white;
-    transition: var(--transition);
     cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Agrega la animación de transición */
 }
 
 .contact__option:hover {
-    background: transparent;
-    border-color: white;
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    background-color: rgba(98, 23, 230, 0.5); /* Cambia el color de fondo al pasar el cursor */
 }
 
 .contact__option-icon {
@@ -58,10 +63,10 @@
 
 .contact__option a {
     margin-top: 0.7rem;
-    display: inline-block;
-    font-size: 0.8rem;
+    font-size: 1rem;
     position: relative;
-    top: 500px;
+    top: 40px;
+    color: rgb(98, 24, 230) ;
 }
 
 .contact__option h5 {
@@ -104,6 +109,16 @@ h5{
 h2{
     position: relative;
     text-align: center;
+}
+
+.btn-primarys{
+    position: relative;
+    background: rgb(98, 24, 230);
+    padding: 20px;
+    border: 1px solid rgb(98, 24, 230) ;
+    border-radius: 5px;
+    box-shadow:  0 0 5px rgb(196, 192, 192);
+    
 }
 @media screen and (max-width: 1024px){
     .container.contact__container {

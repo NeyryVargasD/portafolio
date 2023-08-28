@@ -1,63 +1,69 @@
-.footer-container{
-    position: relative;
-    top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
-    min-height: 30vh;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.footer-container h1{
-    font-family: fantasy;
-    font-weight: 100;
-    font-size: 25px;
-    margin: 0 auto;
+footer {
+    background:  rgba(98, 23, 230, 0.5);
+    padding: 3rem 0;
     text-align: center;
-    text-transform: capitalize;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+    position: relative;
+    top: 350px;
 }
 
-.footer-container h2{
-    font-family: 'Open sans Condensed';
-    font-weight: 100;
-    font-size: 20px;
-    margin-top: 15px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    padding: 10px 20px;
-    border-radius: 5px;
+footer a {
+    color: var(--color-bg);
 }
 
-.footer-container h2:hover{
-    background-color: rgba(0, 0, 0, 0.062);
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
 }
 
-.social-links{
-    padding: 10px;
-    margin: 20px auto;
+.permalinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
 }
 
-.social-links .social{
-    height: 45px;
-    width: 45px;
-    background-color: rgba(22, 13, 13, 0.514);
-    margin: 0 5px;
-    padding: 10px;
-    backdrop-filter: blur(10px);
-    cursor: pointer;
-    transition: background .2s ease;
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
 }
 
+.footer__socials a {
+    background: rgb(78, 76, 76);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer__socials a:hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+}
+  
+@media screen and (max-width: 600px){
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
+    }
+}
 .social-links .social:hover{
     background: gray;
     fill: var(--color-pri);

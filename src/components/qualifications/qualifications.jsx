@@ -54,7 +54,7 @@ const Portfolio = () => {
       <section id="portfolio">
         <div className='Portafolio'>
         <h5>Mis trabajos recientes </h5>
-        <h2>Portfolio</h2>
+        <h2>Portafolio</h2>
         </div>
         <div className="container portfolio__container">
           {soloProjects.map((pro) => (
