@@ -55,10 +55,9 @@
 .header__socials {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0.8rem;
-    position: absolute;
-    left: 15rem;
+    
+    
 
   }
   
@@ -116,10 +115,16 @@
     background: transparent;
   }
 
-  @media screen and (max-width: 600px){
-    .container-header{
-      justify-content: center;
+  @media screen and (max-width: 800px) and(min-width:200px){
+    #header .container-header{
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .header__socials{
+      display: none;
+    }
+    .btn-secun{
+      flex-direction: column;
       align-items: center;
     }
-    
   }

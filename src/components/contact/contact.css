@@ -84,7 +84,7 @@ form span {
 form {
     position: relative;
     top: 55px;
-    width: 400px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;

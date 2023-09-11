@@ -1,7 +1,7 @@
 import './qualifications.css';
-import Deezer from '../props/dezeer.png'
-import Sabujcha from '../props/sabujcha.png'
-import Pokedex from '../props/pokedex.png'
+import Profes from '../props/Profes.png'
+import Zshop from '../props/Zshop.png'
+import Wheel from '../props/Wheel.png'
 import Dashboard from '../props/dashboard.png'
 
 //Portfolio function
@@ -9,39 +9,39 @@ const Portfolio = () => {
     const soloProjects = [
       {
         id: 1,
-        title: "Diseño de deezer con CSS",
-        img: Deezer,
+        title: "Plataforma profesores colombianos",
+        img: Profes,
         description:
-          "Diseño de landing page con css",
+          "Esta es una pagina web donde se podra encontrar material de clase para los profesores de colombia.",
         technologies: "Html | CSS ",
-        link: "https://neyryvargasd.github.io/Paginadeezer/",
-        github: "https://github.com/NeyryVargasD/Paginadeezer",
+        link: "https://ideas-project-final.vercel.app/carouselcomponent",
+        github: "https://github.com/CarlosEmartinezC/ideas-project-final.git",
       },
       {
         id: 2,
-        title: "Sabujcha ",
-        img: Sabujcha,
+        title: "Zshop",
+        img: Zshop,
         description:
-          "Sabujcha es una nueva marca de té matcha que busca incursionar",
+          "Diseño atractivo y llamativo de landing page con css, y html, con cuatro pestañas de navegabilidad.",
         technologies: "html|css|git|",
-        link: "https://neyryvargasd.github.io/sabujcha/",
-        github: "https://github.com/NeyryVargasD/Paginadeezer",
+        link: "https://neyryvargasd.github.io/zshop-2/single.html",
+        github: "https://github.com/NeyryVargasD/zshop-2.git",
       },
       {
         id: 3,
-        title: "Pokedex",
-        img: Pokedex ,
-        description: "Consumo de api ",
+        title: "Wheel of doom",
+        img: Wheel,
+        description: "Juego basado en colombia.",
         technologies: "Html| Css | JavaScript",
-        link: "https://neyryvargasd.github.io/pokedex/",
-        github: "https://github.com/NeyryVargasD/pokedex",
+        link: "https://deploy-preview-16--wheel-of-doom-colombia.netlify.app/",
+        github: "https://github.com/Juanpak12/Hide_in_the-world-B13.git",
       },
       {
         id: 4,
         title: "Dashboard",
         img: Dashboard ,
         description:
-          "App de consumo de API ",
+          "App de consumo de API. ",
         technologies: "Html | CSS | React.Js",
         link: "https://cripto-d.vercel.app/",
         github: "https://github.com/NeyryVargasD/cripto-D",
