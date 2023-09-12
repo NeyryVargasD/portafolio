@@ -56,7 +56,8 @@
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    
+    position: absolute;
+    right: 78%;
     
 
   }

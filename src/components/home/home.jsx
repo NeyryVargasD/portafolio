@@ -22,8 +22,7 @@ function Home() {
 
             <h2>
                 <span>Acerca de mi</span> <br />
-                <p>Soy una persona altamente creativa y proactiva, siempre dispuesta a aprender y abordar nuevos desafíos.<br/>
-                 Mi enfoque se centra en encontrar soluciones prácticas y eficientes para resolver los problemas que se presentan. Disfruto trabajando en equipo, ya que creo firmemente en el valor de la colaboración y el intercambio de ideas. Constantemente busco nuevas formas de contribuir y proponer ideas innovadoras que impulsen un mejoramiento continuo en todas las áreas en las que trabajo.</p>
+                <p>⭐ Soy una apasionada programadora frontend con cuatro meses de experiencia. Tengo habilidades sólidas en HTML, CSS, JavaScript y React y me esfuerzo por contribuir de manera significativa a proyectos de desarrollo frontend⭐</p>
           </h2>
             <a href="#contact" className="btn btn-primar">
                <h4>Contacto</h4>
