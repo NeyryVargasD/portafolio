@@ -22,7 +22,9 @@ function Home() {
 
             <h2>
                 <span>Acerca de mi</span> <br />
-                <p>⭐ Soy una apasionada programadora frontend con cuatro meses de experiencia. Tengo habilidades sólidas en HTML, CSS, JavaScript y React y me esfuerzo por contribuir de manera significativa a proyectos de desarrollo frontend⭐</p>
+                <p>⭐ Soy una apasionada programadora frontend con cuatro meses de experiencia. Tengo habilidades sólidas en HTML, CSS, JavaScript y React y me esfuerzo por contribuir de manera significativa a proyectos de desarrollo frontend
+                con código limpio y diseños atractivos. Estoy comprometida con el aprendizaje continuo y el crecimiento profesional.⭐
+                </p>
           </h2>
             <a href="#contact" className="btn btn-primar">
                <h4>Contacto</h4>

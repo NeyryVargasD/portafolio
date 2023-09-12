@@ -100,10 +100,11 @@
   }
 
   .btn-secun{
-   position: relative;
-   bottom: 30px;
-   right: 120px;
+   position: absolute;
+   bottom: 31px;
+   right: 93px;
    border: 1px solid white;
+   width: 120px ;
    border-radius: 5px;
    padding: 10px;
    background: rgb(98, 23, 230);
@@ -116,16 +117,28 @@
     background: transparent;
   }
 
-  @media screen and (max-width: 800px) and(min-width:200px){
-    #header .container-header{
-      grid-template-columns: 1fr;
-      gap: 1rem;
+  @media screen and (max-width: 1024px){
+    header {
+      height: 68vh;
     }
-    .header__socials{
+  
+    section {
+      margin-top: 6rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    header {
+      height: 100vh;
+    }
+  
+    .header__socials,
+    .scroll__down {
       display: none;
     }
-    .btn-secun{
-      flex-direction: column;
-      align-items: center;
+    .btn-primary{
+      left: 60px;
+      justify-content: center;
     }
+    
   }
