@@ -13,7 +13,7 @@ const Portfolio = () => {
         img: Profes,
         description:
           "Esta es una pagina web donde se podra encontrar material de clase para los profesores de colombia.",
-        technologies: "Html | CSS ",
+        technologies: "Html | React. js |",
         link: "https://ideas-project-final.vercel.app/carouselcomponent",
         github: "https://github.com/CarlosEmartinezC/ideas-project-final.git",
       },

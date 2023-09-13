@@ -83,7 +83,11 @@ body::after{
   justify-content: center;
   align-items: center;
 }
-
+.particles-js{
+  width: 100%;
+  height: 100vh;
+  background: black;
+}
 @media(max-width: 500px){
   .container{
     width: var(--phone-width);

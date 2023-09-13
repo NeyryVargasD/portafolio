@@ -125,6 +125,10 @@ transform: scale(1.1);
     cursor: pointer;
 }
 
+.btn-primar h4:hover{
+    background: rgb(98, 24, 230);
+}
+
 @media screen and (max-width: 300px) {
     .about__me .about__me-image img{
         width: 20px;

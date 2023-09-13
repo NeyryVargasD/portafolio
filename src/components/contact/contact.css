@@ -111,14 +111,19 @@ h2{
     text-align: center;
 }
 
-.btn-primarys{
+.btn-primarys {
     position: relative;
     background: rgb(98, 24, 230);
     padding: 20px;
-    border: 1px solid rgb(98, 24, 230) ;
+    border: 1px solid rgb(98, 24, 230);
     border-radius: 5px;
-    box-shadow:  0 0 5px rgb(196, 192, 192);
-    
+    box-shadow: 0 0 5px rgb(196, 192, 192);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primarys:hover {
+    transform: scale(1.1); 
 }
 @media screen and (max-width: 1024px){
     .container.contact__container {
