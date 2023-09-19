@@ -14,7 +14,7 @@ const Header = () => {
         <a href="#contact" className="btn btn-primary">
         <h4>Contacto</h4>
               </a>
-              <a href="./CVN.pdf" download className="btn-secun">
+              <a href="./H-VNeyry.pdf" download className="btn-secun">
         Descargar CV
       </a>
         
